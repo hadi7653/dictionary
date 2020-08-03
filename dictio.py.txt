@@ -1,0 +1,17 @@
+tt={'Monday' :
+        {'h1' :
+            {'Subject' : 'maths' ,
+	            'Teacher' : 'lulu' ,
+	            'Room no' : '14'
+            }
+       },
+	 'Tuesday' :
+	   {'h2' :
+	        {'Subject' : 'statics' ,
+	            'Teacher' : 'nazrin mam' ,
+	            'Room no' : '15'
+	       	}
+	   }
+    }
+print(tt['Monday']['h1']['Subject'])
+print(tt['Tuesday']['h2']['Subject'])
